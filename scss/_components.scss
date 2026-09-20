@@ -1,0 +1,84 @@
+@use "variables" as *;
+
+@mixin button-base {
+    display: flex;
+    flex-direction: column;
+    margin-top: $spacing-half;
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    padding: $padding-small $padding-big;
+}
+
+.display-group {
+    display: flex;
+    gap: $gap-middle;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.product-card {
+    padding: $padding-small;
+    border: 1px solid gray;
+    border-radius: $borber-middle;
+    background-color: white;
+
+    button {
+        @include button-base;
+    }
+
+    h3 {
+        margin: 0;
+        font-size: 18px;
+    }
+
+    span {
+        font-size: 14px;
+        color:#666666; 
+    }
+}
+
+.filters {
+    padding: $padding-small;
+    background-color: #f3f3f3;
+    border-radius: $border-small;
+
+    button {
+        @include button-base;
+    }
+}
+
+footer {
+    margin-top: 40px;
+    padding: $padding-big;
+
+    background-color: #eeeeee;
+    text-align: center;
+}
+
+.catalog-info {
+    margin-top: 40px;
+    padding: $padding-big;
+    background-color: #f3f3f3;
+    border-radius: $border-small;
+}
+
+.catalog-intro {
+    margin-bottom: 30px;
+
+    h1 {
+        margin: 0 0 10px;
+        font-size: 32px; 
+    }
+    
+    p {
+        margin: 0; 
+    }
+}

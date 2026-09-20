@@ -1,0 +1,16 @@
+@use "sass:math";
+$color-text: black;
+$color-border: gray;
+
+$border-small: 12px;
+$borber-middle: 26px;
+
+$gap-small: 20px;
+$gap-middle: 30px;
+$gap-big: 40px;
+
+$padding-small: 40px;
+$padding-middle: 30px;
+$padding-big: 25px;
+
+$spacing-half: math.div($padding-small, 2);

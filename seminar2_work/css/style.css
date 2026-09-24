@@ -8,6 +8,7 @@ body {
 }
 
 header {
+  color: #1f2937;
   display: flex;
   justify-content: space-between;
   background-color: aliceblue;
@@ -20,37 +21,46 @@ header {
 }
 
 .header-logo {
+  color: #1f2937;
   font-size: 24px;
   font-weight: 700;
 }
 
 .product-card {
+  color: #1f2937;
   padding: 40px;
   border: 1px solid gray;
-  border-radius: 26px;
+  border-radius: 16px;
   background-color: white;
 }
 .product-card button {
+  background-color: #315efb;
+  border-radius: 16px;
   display: flex;
   flex-direction: column;
   margin-top: 20px;
   cursor: pointer;
 }
 .product-card h3 {
+  color: #1f2937;
   margin: 0;
   font-size: 18px;
 }
 .product-card span {
+  color: #1f2937;
   font-size: 14px;
   color: #666666;
 }
 
 .filters {
+  color: #1f2937;
   padding: 40px;
   background-color: #f3f3f3;
-  border-radius: 12px;
+  border-radius: 14px;
 }
 .filters button {
+  background-color: #315efb;
+  border-radius: 16px;
   display: flex;
   flex-direction: column;
   margin-top: 20px;
@@ -58,6 +68,7 @@ header {
 }
 
 footer {
+  color: #1f2937;
   margin-top: 40px;
   padding: 25px;
   background-color: #eeeeee;
@@ -65,13 +76,15 @@ footer {
 }
 
 .catalog-info {
+  color: #1f2937;
   margin-top: 40px;
   padding: 25px;
   background-color: #f3f3f3;
-  border-radius: 12px;
+  border-radius: 14px;
 }
 
 .catalog-intro {
+  color: #1f2937;
   margin-bottom: 30px;
 }
 .catalog-intro h1 {
@@ -83,6 +96,7 @@ footer {
 }
 
 main {
+  background-color: #f5f7fb;
   padding: 25px;
 }
 
@@ -93,6 +107,7 @@ main {
 }
 
 .products {
+  color: #1f2937;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;

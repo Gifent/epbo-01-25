@@ -1,6 +1,7 @@
 @use "variables" as *;
 
 main {
+    background-color: $color-background;
     padding: $padding-big;
 }
 
@@ -11,6 +12,7 @@ main {
 }
 
 .products {
+    color: $color-text;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: $gap-small;
